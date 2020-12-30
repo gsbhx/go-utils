@@ -1,6 +1,6 @@
 package errors
 
-import codeerror "git.hsuanyuen.cn/tools/errors/error"
+import codeerror "tools/errors/error"
 var Errors *AllErrors
 
 type AllErrors struct {

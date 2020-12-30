@@ -2,7 +2,7 @@ package redis
 
 import (
 	"fmt"
-	redisconf "git.hsuanyuen.cn/tools/config/cache/redis"
+	redisconf "tools/config/cache/redis"
 	redigo "github.com/garyburd/redigo/redis"
 	"time"
 )

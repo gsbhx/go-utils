@@ -1,9 +1,9 @@
 package tools
 
 import (
-	"git.hsuanyuen.cn/tools/cache"
-	"git.hsuanyuen.cn/tools/config"
-	error2 "git.hsuanyuen.cn/tools/errors"
+	"tools/cache"
+	"tools/config"
+	error2 "tools/errors"
 )
 
 var Hs *hTools

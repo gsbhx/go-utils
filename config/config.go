@@ -1,6 +1,6 @@
 package config
 
-import "git.hsuanyuen.cn/tools/config/cache"
+import "tools/config/cache"
 
 var Config *Conf
 type Conf struct {

@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"git.hsuanyuen.cn/tools"
-	"git.hsuanyuen.cn/tools/cache/redis"
-	redisconf "git.hsuanyuen.cn/tools/config/cache/redis"
+	"tools"
+	"tools/cache/redis"
+	redisconf "tools/config/cache/redis"
 )
 
 func main()  {
