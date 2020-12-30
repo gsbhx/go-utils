@@ -1,6 +1,6 @@
 package config
 
-import "github.com/gsbhx/tools/config/cache"
+import "github.com/gsbhx/go-utils/config/cache"
 
 var Config *Conf
 type Conf struct {

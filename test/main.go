@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/gsbhx/tools"
-	"github.com/gsbhx/tools/cache/redis"
-	redisconf "github.com/gsbhx/tools/config/cache/redis"
+	"github.com/gsbhx/go-utils"
+	"github.com/gsbhx/go-utils/cache/redis"
+	redisconf "github.com/gsbhx/go-utils/config/cache/redis"
 )
 
 func main()  {

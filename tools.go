@@ -1,9 +1,9 @@
 package tools
 
 import (
-	"github.com/gsbhx/tools/cache"
-	"github.com/gsbhx/tools/config"
-	error2 "github.com/gsbhx/tools/errors"
+	"github.com/gsbhx/go-utils/cache"
+	"github.com/gsbhx/go-utils/config"
+	error2 "github.com/gsbhx/go-utils/errors"
 )
 
 var Hs *hTools

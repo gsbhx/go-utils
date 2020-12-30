@@ -1,8 +1,8 @@
 package cache
 
 import (
-	hlog "github.com/gsbhx/tools/cache/log"
-	"github.com/gsbhx/tools/cache/redis"
+	hlog "github.com/gsbhx/go-utils/cache/log"
+	"github.com/gsbhx/go-utils/cache/redis"
 )
 
 var HCache *Caches
