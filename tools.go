@@ -1,9 +1,9 @@
 package tools
 
 import (
-	"tools/cache"
-	"tools/config"
-	error2 "tools/errors"
+	"github.com/gsbhx/tools/cache"
+	"github.com/gsbhx/tools/config"
+	error2 "github.com/gsbhx/tools/errors"
 )
 
 var Hs *hTools

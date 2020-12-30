@@ -1,6 +1,6 @@
 package config
 
-import "tools/config/cache"
+import "github.com/gsbhx/tools/config/cache"
 
 var Config *Conf
 type Conf struct {

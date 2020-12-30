@@ -1,6 +1,6 @@
 package cache
 
-import redisconf "tools/config/cache/redis"
+import redisconf "github.com/gsbhx/tools/config/cache/redis"
 var CacheConf *CacheConfigure
 
 type CacheConfigure struct {

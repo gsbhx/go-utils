@@ -1,6 +1,6 @@
 package errors
 
-import codeerror "tools/errors/error"
+import codeerror "github.com/gsbhx/tools/errors/error"
 var Errors *AllErrors
 
 type AllErrors struct {

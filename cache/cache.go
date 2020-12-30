@@ -1,8 +1,8 @@
 package cache
 
 import (
-	hlog "tools/cache/log"
-	"tools/cache/redis"
+	hlog "github.com/gsbhx/tools/cache/log"
+	"github.com/gsbhx/tools/cache/redis"
 )
 
 var HCache *Caches
