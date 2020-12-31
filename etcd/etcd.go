@@ -4,7 +4,6 @@ import (
 	"context"
 	"fmt"
 	"go.etcd.io/etcd/clientv3"
-	"time"
 )
 
 var EClient *EtcdClient
@@ -14,14 +13,10 @@ type EtcdClient struct {
 	client *clientv3.Client
 }
 
-func EtcdInit() (e *EtcdClient,err error) {
-	e = new(EtcdClient)
-	//初始化e.config TODO 将配置设置为通过ini文件提取
-	e.config = clientv3.Config{
-		Endpoints:   []string{"127.0.0.1:2379"},
-		DialTimeout: 5 * time.Second,
-	}
-	if e.client,err= clientv3.New(e.config); err != nil {
+func EtcdInit(confs clientv3.Config) (err error) {
+	EClient = new(EtcdClient)
+	EClient.config = confs
+	if EClient.client,err= clientv3.New(EClient.config); err != nil {
 		fmt.Println(err)
 		return
 	}
